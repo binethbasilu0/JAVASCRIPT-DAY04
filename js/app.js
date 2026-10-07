@@ -15,6 +15,8 @@
 console.log(name);works
 console.log(age);//it doesn't work
 */
+
+/*
 //------------------const----------------
 let age=30;
 console.log(age);
@@ -27,3 +29,21 @@ console.log(number);
 
 number=2;
 console.log(number);
+
+*/
+
+
+//--------------------arrays-const-------------------
+
+//let customerList=["Saman","Nimal","Kamal"];
+//console.log(customerList);//it works well .cuz the array values already given while the array is creating
+
+//customerList="Kumara";
+//console.log(customerList);//array reassign as a value  an it displays Kumara
+
+const customerList=["Saman","Nimal","Kamal"];
+console.log(customerList);//displays it as ['Saman', 'Nimal', 'Kamal']
+
+customerList.push("Kumara");//the method called "push" used to extend the array and add new value to extended index
+console.log(customerList);//displays it as ['Saman', 'Nimal', 'Kamal', 'Kumara']
+

@@ -155,3 +155,11 @@ console.log(getTotal(5,10));
 
  let sample= txtValue1 => txtValue1;
  console.log(sample("Hello World 2"));
+
+
+//----------sorting array of objects-------------
+const leterList=["D","A","E","F","C","B","E","N","L","I","O"];
+console.log(leterList);
+
+const sortArray=leterList.sort();
+console.log(sortArray);

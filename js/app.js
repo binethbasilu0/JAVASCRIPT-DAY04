@@ -32,7 +32,7 @@ console.log(number);
 
 */
 
-
+/*
 //--------------------arrays-const-------------------
 
 //let customerList=["Saman","Nimal","Kamal"];
@@ -47,3 +47,18 @@ console.log(customerList);//displays it as ['Saman', 'Nimal', 'Kamal']
 customerList.push("Kumara");//the method called "push" used to extend the array and add new value to extended index
 console.log(customerList);//displays it as ['Saman', 'Nimal', 'Kamal', 'Kumara']
 
+
+*/
+
+//----------------array-method--------------------------
+//push method- add an new value into the array
+
+const number=[];
+
+number.push(1);
+number.push(2);
+number.push(3);
+number.push(4);
+console.log(number);
+number.reverse();//the reverse method can use to revers the list of nembers
+console.log(number);

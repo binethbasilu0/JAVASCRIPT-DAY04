@@ -207,7 +207,7 @@ fetch("js/customer.json").then(res=>res.json()).then(data0=>{
 
 
 let table =document.getElementById("tbl")
-//use interpollarance to get info to table that crates on html file
+//use interpollarance to get info to display created table that crates on html file
 fetch('https://jsonplaceholder.typicode.com/posts/').then(res=>res.json()).then(data=>{
    data.forEach(element=>{
         table.innerHTML+=`

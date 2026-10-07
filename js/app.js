@@ -196,4 +196,28 @@
 
 
 
+//-------JSON - javaScript object notation-----------------
+
+//res=response
+fetch("js/customer.json").then(res=>res.json()).then(data0=>{
+    console.log(data0);
+});
+
+
+
+
+let table =document.getElementById("tbl")
+//use interpollarance to get info to table that crates on html file
+fetch('https://jsonplaceholder.typicode.com/posts/').then(res=>res.json()).then(data=>{
+   data.forEach(element=>{
+        table.innerHTML+=`
+        <tr>
+            <td>${element.body}</td>
+            <td>${element.id}</td>
+            <td>${element.title}</td>
+            <td>${element.userId}</td>
+        </tr>`
+   });
+});
+
 

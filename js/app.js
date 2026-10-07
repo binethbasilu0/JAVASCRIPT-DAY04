@@ -111,3 +111,47 @@ let inStockProducts=
 console.log(inStockProducts);
 
 
+//------------functions--------------------
+
+
+//---method 01----
+
+function addNumbers(num1,num2){
+    return num1+num2;
+}
+
+console.log(addNumbers(5,10));
+
+//----method 02------
+
+let getSum =function(num1,num2){
+    return num1+num2;
+}
+
+console.log(getSum(5,10));
+
+
+//------------method 03-arrow function---------
+
+let getTotal =(num1,num2)=>{
+    return num1+num2;
+}
+console.log(getTotal(5,10));
+
+//-----------method 04-annonymous arrow function------------
+
+(num1, num2) => {
+    return num1 + num2;
+}
+
+
+//-----------Arrow function with single parameter------------
+ let txtValue=txtValue=>{
+    return txtValue;
+ }
+ console.log(txtValue("Hello World"));
+
+ //-----------Arrow function with single parameter -short hand------------
+
+ let sample= txtValue1 => txtValue1;
+ console.log(sample("Hello World 2"));
